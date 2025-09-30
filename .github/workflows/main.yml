@@ -12,6 +12,14 @@ jobs:
               
        - name : print a Welcom message 
          run : echo "Welcome to our First Github Action"
+       - name : Checkout repository 
+         uses : actions/checkout@v.0.0
+       - name : List All Files
+         run : ls -la
+        
+        
+
+
 
                      
                     
